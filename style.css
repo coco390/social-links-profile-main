@@ -1,0 +1,63 @@
+/*Social Links Styling*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    background-color: #1F1F1F;
+    text-align: center;
+    padding: 20px;
+    width: 384px;
+    height: 611px;
+    border-radius: 12px;
+}
+
+.socials-card img {
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+}
+
+.socials-card address {
+    font-style: normal;
+    color: #C4F82A;
+    font-weight: 700;
+}
+
+.socials-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.socials-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    width: 304px;
+    height: 45px;
+    border-radius: 8px;
+    margin: 0.5rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+    background-color: #C4F82A;
+    color: black;
+}
