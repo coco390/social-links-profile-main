@@ -1,6 +1,6 @@
 /*Social Links Styling*/
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Inter", serif;
     background-color: black;
     color: white;
     display: flex;
@@ -14,10 +14,8 @@ body {
 .card-container {
     background-color: #1F1F1F;
     text-align: center;
-    padding: 20px;
-    width: 384px;
-    height: 611px;
-    border-radius: 12px;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 .socials-card img {
@@ -26,10 +24,22 @@ body {
     height: 88px;
 }
 
+.socials-card h1 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
 .socials-card address {
     font-style: normal;
     color: #C4F82A;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.socials-card p {
+    font-size: .85rem;
+    font-weight: 400;
 }
 
 .socials-container {
@@ -53,7 +63,8 @@ body {
     border-radius: 8px;
     margin: 0.5rem;
     text-decoration: none;
-    font-weight: 700;
+    font-size: .9rem;
+    font-weight: 600;
 }
 
 .socials-link:hover,
